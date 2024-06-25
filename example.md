@@ -247,7 +247,7 @@ const author = {
 
 ---
 
-#### Live code edition using {monaco}
+## Live code edition using {monaco}
 
 ```ts {monaco}
 function distance(x: number, y: number) {
@@ -257,7 +257,7 @@ function distance(x: number, y: number) {
 
 <br/>
 
-#### Execute code using {monaco-run}
+### Execute code using {monaco-run}
 
 ```ts {monaco-run}
 function distance(x: number, y: number) {
@@ -291,7 +291,7 @@ Want big impact?
 
 ---
 
-### Use tables to compare data
+## Use tables to compare data
 
 |        | A   | B   | C   |
 | ------ | --- | --- | --- |
