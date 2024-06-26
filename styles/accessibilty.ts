@@ -16,4 +16,10 @@ function initAccessibility() {
       });
     }
   }
+
+  const slideContent = document.querySelector("#slide-content");
+  if (slideContent) {
+    slideContent.setAttribute("aria-live", "polite");
+    slideContent.setAttribute("aria-relevant", "additions text");
+  }
 }
